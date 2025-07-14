@@ -1,0 +1,80 @@
+def my_fun():
+    print("hello")
+    my_fun()
+    hello
+
+def add(a,b):
+    print(a+b)
+    add(3,4)
+    7
+
+def addv(a,b):
+    c=a+b
+    return c
+addv(3,4)
+7
+
+b=[1,2,3,4,5]
+print(b)
+[1, 2, 3, 4, 5]
+
+
+b="python full stack"
+b.split()
+['python', 'full', 'stack']
+
+b="python,full,stack"
+ab=b.split(",")
+print(ab)
+['python', 'full', 'stack']
+
+ab[0]
+'python'
+
+k=[1,2,3,4,5]
+for i in k:
+    print(i)
+1
+2
+3
+4
+5
+
+for i in range(0,10):
+    print(i)
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+
+for i in range(10,0,-1):
+    print(i)
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+
+list1=[]
+t=int(input("Enter the size of array"))
+for i in range(0,t):
+    l=input("Enter the values:")
+    list1.append(l)
+Enter the size of array3
+Enter the values:1
+Enter the values:4
+Enter the values:6
+
+list1
+['1', '4', '6']
